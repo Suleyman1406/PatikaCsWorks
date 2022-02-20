@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace exception_handling
+﻿namespace exception_handling
 {
     class Program
     {
         public static void Main(string[] args)
         {
-
+int a=5;
+decimal b=a;
             try
             {
                 Console.WriteLine("Bir Sayi giriniz");
