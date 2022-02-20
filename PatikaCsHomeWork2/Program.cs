@@ -49,6 +49,8 @@ namespace Operators
             Console.WriteLine(sonuc1);
             sonuc1 = ++sayi1;
             Console.WriteLine(sonuc1);
+            sonuc1 = 20 % 3;
+            Console.WriteLine(sonuc1);
 
 
         }
