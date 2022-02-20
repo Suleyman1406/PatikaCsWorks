@@ -38,6 +38,27 @@ namespace type_casting
             float w = 10.3f;
             byte v = (byte)w;
             Console.WriteLine(v);
+
+            int xx = 6;
+            string yy = xx.ToString();
+
+            Console.WriteLine(yy);
+
+            string zz = 12.5f.ToString();
+            Console.WriteLine(zz);
+
+            string s1 = "10", s2 = "20";
+            int sayi1, sayi2;
+            int Toplam;
+
+            sayi1 = Convert.ToInt32(s1);
+            sayi2 = Convert.ToInt32(s2);
+
+            Toplam = sayi1 + sayi2;
+            Console.WriteLine(Toplam);
+
+
+
         }
 
 
