@@ -1,5 +1,4 @@
-﻿using System.Collections;
-namespace arraylist
+﻿namespace arraylist
 {
     class Program
     {
